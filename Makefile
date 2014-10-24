@@ -9,7 +9,7 @@ ifeq ($(SCM),svn)
 SVNVER=_SVN$(shell LANG=C svnversion .)
 endif
 
-prefix=/usr
+prefix=/usr/local
 bindir=$(prefix)/bin
 datadir=$(prefix)/share
 libdir=$(prefix)/lib
